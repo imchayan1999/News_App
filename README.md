@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+#Alan Daily
 
 Live site: https://alandaily.netlify.app/
 
