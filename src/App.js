@@ -7,7 +7,7 @@ import logo from './images/logo.png';
 import { NewsCards} from './components';
 import useStyles from './styles';
 
-// const alanKey = 'bb4d7b40c28fa4bbfb80f31e9cf1f67c2e956eca572e1d8b807a3e2338fdd0dc/stage';
+
 
 const App = () => {
     const [activeArticle, setActiveArticle] = useState(0);
@@ -18,7 +18,7 @@ const App = () => {
   
     useEffect(() => {
       alanBtn({
-        key: 'bb4d7b40c28fa4bbfb80f31e9cf1f67c2e956eca572e1d8b807a3e2338fdd0dc/stage',
+        key: 'Enter your API key here',
         onCommand: ({ command, articles, number }) => {
           if (command === 'newHeadlines') {
             setNewsArticles(articles);
